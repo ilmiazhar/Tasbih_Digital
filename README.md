@@ -1,6 +1,6 @@
 # tasbih_digital
 
-A new Flutter project.
+Aplikasi penghitung bacaan dzikir sederhana, dibuat menggunakan Flutter dan Dart.
 
 ## Getting Started
 

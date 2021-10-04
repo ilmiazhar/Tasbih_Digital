@@ -50,10 +50,6 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              // Text(
-              //   '$_counter',
-              //   style: Theme.of(context).textTheme.headline4,
-              // ),
               RichText(
                 text: TextSpan(
                   style: DefaultTextStyle.of(context).style,
@@ -95,16 +91,5 @@ class _MyHomePageState extends State<MyHomePage> {
                 )),
           ],
         ));
-    // floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-    // floatingActionButton: FloatingActionButton(
-    //   onPressed: _incrementCounter,
-    //   tooltip: 'Increment',
-    //   child: Icon(Icons.add),
-    // ), // This trailing comma makes auto-formatting nicer for build methods.
-    // floatingActionButton: FloatingActionButton(
-    //   onPressed: _resetCount,
-    //   tooltip: 'increment',
-    //   child: Icon(Icons.refresh),
-    // ));
   }
 }
